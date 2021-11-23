@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-image-upload",
+  "version": "1.0.0",
+  "description": "Upload images directly to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephThomasVasquez/mongodb-image-upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephThomasVasquez/mongodb-image-upload/issues"
+  },
+  "homepage": "https://github.com/JosephThomasVasquez/mongodb-image-upload#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.3",
+    "multer-gridfs-storage": "^5.0.2"
+  }
+}
